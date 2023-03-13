@@ -1,0 +1,48 @@
+{
+    "guilds": [
+        {
+            "id": "1083919814537531464",
+            "name": "Inova Tech Dev",
+            "channel": {
+                "id": "1084137895734034442",
+                "name": "checkin"
+            },
+            "role": {
+                "id": "1084211396503417062",
+                "name": "Inova Dev"
+            },
+            "log": {
+                "register": {
+                    "id": "1084846958948139099",
+                    "name": "register-log"
+                },
+                "checkin": {
+                    "id": "1084301167942713344",
+                    "name": "checkin-log"
+                }
+            }
+        },
+        {
+            "id": "854744476186312714",
+            "name": "TESTANDO_BOT",
+            "channel": {
+                "id": "1084295305991823421",
+                "name": "checkin"
+            },
+            "log": {
+                "register": {
+                    "id": "1084538987022123079",
+                    "name": "log"
+                },
+                "checkin": {
+                    "id": "1084538987022123079",
+                    "name": "log"
+                }
+            },
+            "role": {
+                "id": "855475766539190302",
+                "name": "USER_ROLE_2"
+            }
+        }
+    ]
+}

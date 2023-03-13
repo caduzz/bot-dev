@@ -1,0 +1,98 @@
+[
+    {
+        "label": "Basicos",
+        "value": "basic",
+        "description": "Comandos Basicos do GIT",
+        "emoji": "🐣",
+        "options": [
+            {
+                "name": "git init",
+                "value": "```Esse comando Git cria um novo repositório Git vazio ou reinicializa um existente```"
+            },
+            {
+                "name": "git clone `url`",
+                "value": "```é um comando Git usado para clonar um repositorio usando a url```"
+            },
+            {
+                "name": "git add `diretorio` ou `.`",
+                "value": "```é um comando Git usado para informa os arquivos a serem enviados```"
+            },
+            {
+                "name": "git commit `commit`",
+                "value": "```é um comando Git usado para comentar as auterações feitas no repositiorio```"
+            },
+            {
+                "name": "git push",
+                "value": "```Esse comando Git vai enviar seu commit para o a branch.```"
+            },
+            {
+                "name": "git pull",
+                "value": "```Esse comando Git pega as alterações mais recentes do repositório remoto e as mescla com o seu repositório local.```"
+            }
+        ]
+    },
+    {
+        "label": "Intermediarios",
+        "value": "intermediate",
+        "description": "Comandos Intermediários do GIT",
+        "emoji": "🔧",
+        "options": [
+            {
+                "name": "git status",
+                "value": "```Esse comando Git exibe o status atual do seu repositório, indicando quais arquivos foram modificados e quais estão prontos para commit.```"
+            },
+            {
+                "name": "git log",
+                "value": "```Esse comando Git exibe o histórico de commits do repositório, mostrando as informações de autor, data e mensagem de cada commit.```"
+            },
+            {
+                "name": "git diff",
+                "value": "```Esse comando Git exibe as diferenças entre os arquivos do seu repositório e as versões salvas nos commits anteriores.```"
+            },
+            {
+                "name": "git stash",
+                "value": "```Esse comando Git salva temporariamente as alterações que ainda não foram commitadas, permitindo que você as recupere mais tarde.```"
+            },
+            {
+                "name": "git tag `nome`",
+                "value": "```Esse comando Git cria uma tag com o nome especificado, marcando uma versão específica do seu projeto.```"
+            },
+            {
+                "name": "git remote add `nome` `url`",
+                "value": "```Esse comando Git adiciona um repositório remoto com o nome especificado e a URL fornecida.```"
+            }
+        ]
+    },
+    {
+        "label": "Avançados",
+        "value": "advanced",
+        "description": "Comandos Avançados do GIT",
+        "emoji": "🚀",
+        "options": [
+            {
+            "name": "git `branch`",
+            "value": "```Esse comando Git lista todas as branches disponíveis em seu repositório local e destaca a branch atual```"
+            },
+            {
+            "name": "git checkout `branch`",
+            "value": "```Esse comando Git muda de branch.```"
+            },
+            {
+            "name": "git merge `branch`",
+            "value": "```Esse comando Git mescla a branch especificada na branch atual.```"
+            },
+            {
+            "name": "git rebase `branch`",
+            "value": "```Esse comando Git move os commits da branch atual para a branch especificada, reescrevendo a história do projeto.```"
+            },
+            {
+            "name": "git reset `commit`",
+            "value": "```Esse comando Git desfaz o commit especificado, removendo-o do histórico do projeto.```"
+            },
+            {
+            "name": "git cherry-pick `commit`",
+            "value": "```Esse comando Git aplica um commit específico de uma branch em outra.```"
+            }
+        ]
+    }
+]
